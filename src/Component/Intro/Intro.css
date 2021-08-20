@@ -1,0 +1,94 @@
+.base{
+    background-color:black ;
+}
+.base-1{
+    position: sticky;
+    width: 50vw;
+    overflow: hidden;
+}
+.base-vid{
+   display: flex;
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+   
+ 
+    
+}
+.base-vid video{
+    object-fit: cover;
+    
+}
+.Blog-logo{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    padding: 10% 0%;
+    font-size: 8vw;
+    font-weight: 900;
+    color:rgb(10, 241, 210);
+    background: black;
+    mix-blend-mode: multiply;
+   
+}
+.Blog-logo b{
+    font-size: 10vw;
+}
+.add{
+    position: absolute;
+    padding: 50% 0%;
+    overflow: hidden;
+    height: 80vh;
+    
+}
+.add-p{
+    font-size: 1.5rem;
+    
+    color: rgb(10, 241, 210);
+    
+    
+}
+.add-h1{
+    margin: 0% 0% 5% 0%;
+    color:#fff
+}
+.add-btn{
+   
+    font-size: 1rem;
+    color:#fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding:2% 8%;
+    box-shadow: inset 0 0 0 0 #fff ; 
+    transition: 0.3s ease-out;
+   
+}
+.add-btn:hover{
+    text-decoration: none;
+    box-shadow: inset 400px 0 0 0 rgb(10, 241, 210) ; 
+    color:rgb(0, 0, 0);
+}
+/* +++++++++++++++++++++++++++++++++++Fixed Column#################################################### */
+.base-2{
+    background-color:rgb(0, 0, 0) ;
+    padding:4% 2%;
+}
+.base-heading-main{
+    color:rgb(118, 127, 129);
+}
+.Blog-heading{
+    color:rgb(10, 241, 210);
+    font-size: 2vw;
+}
+.Blog-sub{
+    color:#fff;
+}
+.Blog-text{
+    color:rgb(118, 127, 129);
+}
+hr{
+    border-top: 2px solid rgb(3, 255, 221) ;
+    
+}
